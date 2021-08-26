@@ -1,0 +1,64 @@
+body{
+    background-color: darkslategrey;
+    background-image: linear-gradient(to left, darkslategray, brown);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+#covidStats{
+    height: 450px;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-left: 10%;
+    bottom: 0;
+    margin-top: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+h3, i{
+color: white;
+font-size: 30px;
+display: inline-block;
+}
+
+i{
+    color: rgba(255, 0, 0, 0.836);
+}
+
+label{
+    margin-left: 600px
+}
+#mainStats{
+    height: 400px;
+    width: 500px;
+    margin-left: 350px;
+}
+
+hr{
+    width: 103%;
+    border: 15px solid white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+#selectCountries{
+    margin-top: 20px;
+    padding: 10px;
+    width: 400px;
+    /* margin-left: 350px;
+    margin-bottom: 50px; */
+    border: none;
+    border-radius: 2px;
+    font-size: 18px;
+    outline: none;
+    background-color: rgba(240, 248, 255, 0.616);
+}
+
+p{
+    text-align: left;
+    line-height: 6vh;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+}
