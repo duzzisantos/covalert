@@ -32,7 +32,7 @@ async function getCovidData() {
         "method": "GET",
         "headers": {
             "x-rapidapi-host": "covid-193.p.rapidapi.com",
-            "x-rapidapi-key": "1f6aba5149msha00241a4cbf041fp12ab4ajsn0544aef4b5de"
+            "x-rapidapi-key": "(add your API key here)"
         }
     })
         .then(response => response.json())
